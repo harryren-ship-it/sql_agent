@@ -108,7 +108,7 @@ llm = ChatGoogleGenerativeAI(
 )
 
 # === 步骤 3: 连接到数据库 ===
-db_uri = "sqlite:///university.db"
+db_uri = "sqlite:///sample.db"
 db = SQLDatabase.from_uri(db_uri)
 
 # === 步骤 4: 构建 LLM + Agent 工具包 ===
